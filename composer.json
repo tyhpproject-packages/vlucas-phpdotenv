@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/vlucas-phpdotenv",
+    "description": "Tyhp type definitions for vlucas/phpdotenv 5.7.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.7.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/vlucas-phpdotenv-impl": "~5.7.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/vlucas-phpdotenv-impl"
+        }
+    }
+}
